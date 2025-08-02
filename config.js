@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "XTREME~XMD~rxA1VDia#z3hQdCedq0vX7l6jXOuUzCe5zltHkLdPWF9tEwzhbdA",
+SESSION_ID: process.env.SESSION_ID || "XTREME~XMD~ro5mTYqY#1dveyr9ZPW3ACVysPPtAzvlR9x0UZZEAFzreF9kQRQo",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
@@ -25,7 +25,7 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/vz98kd.jpg",
 // add custom menu and mention reply image url
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || "+",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "*( -_･) ︻デ═一 ▸BENJAMIN*",
 // add bot namw here for menu
